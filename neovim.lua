@@ -3,6 +3,7 @@ return {
 		"sainnhe/gruvbox-material",
 		priority = 1000,
 		config = function()
+			vim.o.background = "light"
 			vim.g.gruvbox_material_background = "hard"
 			vim.g.gruvbox_material_transparent_background = 1
 		end,

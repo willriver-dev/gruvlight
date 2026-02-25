@@ -55,7 +55,7 @@
     }
   },
   "sway/window": {
-    "format": "<span color='#202020' bgcolor='#d3869b' > 󰣆 </span> {app_id}",
+    "format": "<span color='#f9f5d7' bgcolor='#945e80' > 󰣆 </span> {app_id}",
     "separate-outputs": true,
     "icon": false,
     "tooltip": false
@@ -82,7 +82,7 @@
     }
   },
   "hyprland/window": {
-    "format": "<span color='#202020' bgcolor='#d3869b' > 󰣆 </span> {class}",
+    "format": "<span color='#f9f5d7' bgcolor='#945e80' > 󰣆 </span> {class}",
     "separate-outputs": true,
     "icon": false,
     "tooltip": false
@@ -96,11 +96,11 @@
     "spacing": 8
   },
   "disk": {
-    "format": "<span color='#202020' bgcolor='#ea6962' >  </span> {free}",
+    "format": "<span color='#f9f5d7' bgcolor='#bd4848' >  </span> {free}",
     "interval": 20
   },
   "cpu": {
-    "format": "<span color='#202020' bgcolor='#e78a4e' >  </span> {usage}%",
+    "format": "<span color='#f9f5d7' bgcolor='#b15509' >  </span> {usage}%",
     "tooltip": false,
     "interval": 1
   },
@@ -116,12 +116,12 @@
     "thermal-zone": 5,
     // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 70,
-    "format": "<span color='#202020' bgcolor='#d8a657' > 󰴈 </span> {temperatureC}°C",
-    "format-critical": "<span color='#202020' bgcolor='#cc241d' >  </span> {temperatureC}°C"
+    "format": "<span color='#f9f5d7' bgcolor='#9d6207' > 󰴈 </span> {temperatureC}°C",
+    "format-critical": "<span color='#f9f5d7' bgcolor='#9d0006' >  </span> {temperatureC}°C"
   },
   "backlight": {
     // "device": "acpi_video1",
-    "format": "<span color='#202020' bgcolor='#f6c657' > 󰞏 </span> {percent}%",
+    "format": "<span color='#f9f5d7' bgcolor='#9d6207' > 󰞏 </span> {percent}%",
     "tooltip": false,
     // "on-click-right": "~/.config/custom_scripts/wlsunset.sh"
   },
@@ -131,14 +131,14 @@
     "interval": 2,
     // "return-type": "json",
     // "format": " <span color='#89b4fa' font='Font Awesome 6 Free'></span>  {percentage}%",
-    "format": "<span color='#202020' bgcolor='#458588' >  </span>  {percentage}%"
+    "format": "<span color='#f9f5d7' bgcolor='#076678' >  </span>  {percentage}%"
   },
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
-    "format": "<span color='#202020' bgcolor='#83a598' >  </span> {volume}%",
-    "format-muted": "<span color='#202020' bgcolor='#ea6962' >  </span> {volume}%",
-    "format-bluetooth": "<span color='#202020' bgcolor='#83a598' > 󰂰 </span> {volume}%",
-    "format-bluetooth-muted": "<span color='#202020' bgcolor='#ea6962' > 󰂲 </span> {volume}%",
+    "format": "<span color='#f9f5d7' bgcolor='#45707a' >  </span> {volume}%",
+    "format-muted": "<span color='#f9f5d7' bgcolor='#bd4848' >  </span> {volume}%",
+    "format-bluetooth": "<span color='#f9f5d7' bgcolor='#45707a' > 󰂰 </span> {volume}%",
+    "format-bluetooth-muted": "<span color='#f9f5d7' bgcolor='#bd4848' > 󰂲 </span> {volume}%",
     "format-source": "{volume}% ",
     "on-click": "omarchy-launch-or-focus-tui wiremix",
     "on-click-right": "pamixer -t",
@@ -167,22 +167,22 @@
       "󰂂",
       "󰁹"
     ],
-    "format": "<span color='#202020' bgcolor='#689d6a' > {icon} </span> {capacity}%",
-    "format-critical": "<span color='#202020' bgcolor='#cc241d' > {icon} </span> {capacity}%!!",
-    "format-warning": "<span color='#202020' bgcolor='#e78a4e' > {icon} </span> {capacity}%",
-    "format-full": "<span color='#202020' bgcolor='#689d6a' > {icon} </span> {capacity}%",
-    "format-charging": "<span color='#202020' bgcolor='#689d6a' > 󰂅 </span> {capacity}%",
-    "format-charging-warning": "<span color='#202020' bgcolor='#e78a4e' > 󰢝 </span> {capacity}%",
-    "format-charging-critical": "<span color='#202020' bgcolor='#cc241d' > 󰢜 </span> {capacity}%",
-    "format-plugged": "<span color='#202020' bgcolor='#689d6a' > 󰂅 </span> {capacity}%",
-    "format-alt": "<span color='#202020' bgcolor='#689d6a' > 󱧥 </span> {time}",
+    "format": "<span color='#f9f5d7' bgcolor='#427b58' > {icon} </span> {capacity}%",
+    "format-critical": "<span color='#f9f5d7' bgcolor='#9d0006' > {icon} </span> {capacity}%!!",
+    "format-warning": "<span color='#f9f5d7' bgcolor='#b15509' > {icon} </span> {capacity}%",
+    "format-full": "<span color='#f9f5d7' bgcolor='#427b58' > {icon} </span> {capacity}%",
+    "format-charging": "<span color='#f9f5d7' bgcolor='#427b58' > 󰂅 </span> {capacity}%",
+    "format-charging-warning": "<span color='#f9f5d7' bgcolor='#b15509' > 󰢝 </span> {capacity}%",
+    "format-charging-critical": "<span color='#f9f5d7' bgcolor='#9d0006' > 󰢜 </span> {capacity}%",
+    "format-plugged": "<span color='#f9f5d7' bgcolor='#427b58' > 󰂅 </span> {capacity}%",
+    "format-alt": "<span color='#f9f5d7' bgcolor='#427b58' > 󱧥 </span> {time}",
     "tooltip": false
   },
   "network": {
     "interval": 2,
-    "format": "<span color='#202020' bgcolor='#d3869b'> 󱘖 </span> {bandwidthDownBits}",
-    "format-wifi": "<span color='#202020' bgcolor='#d3869b'> {icon} </span> {bandwidthDownBits}",
-    "format-ethernet": "<span color='#202020' bgcolor='#d3869b'> 󰈀 </span> {bandwidthDownBits}",
+    "format": "<span color='#f9f5d7' bgcolor='#945e80'> 󱘖 </span> {bandwidthDownBits}",
+    "format-wifi": "<span color='#f9f5d7' bgcolor='#945e80'> {icon} </span> {bandwidthDownBits}",
+    "format-ethernet": "<span color='#f9f5d7' bgcolor='#945e80'> 󰈀 </span> {bandwidthDownBits}",
     "format-icons": [
       "󰤫",
       "󰤟",
@@ -197,7 +197,7 @@
   },
   "clock": {
     // "timezone": "America/New_York",
-    "format": "<span color='#202020' bgcolor='#8ec07c' >  </span> {:%a %d | %H:%M}",
+    "format": "<span color='#f9f5d7' bgcolor='#427b58' >  </span> {:%a %d | %H:%M}",
     "tooltip": false,
     "interval": 1
   }
